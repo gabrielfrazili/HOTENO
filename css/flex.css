@@ -161,7 +161,7 @@ input:focus {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 380px) {
   .titulo {
     margin-top: 5px;
   }
