@@ -1,0 +1,30 @@
+.conteiner_textoslink_texto_superior_textomm {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.conteiner_textoslink_texto_superior_titulo {
+  font-family: "Inter", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.conteiner_textoslink_texto_superior_texto {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+@media (max-width: 840px) {
+  .conteiner_textoslink_texto_superior_textomm {
+    font-size: 0.75em;
+  }
+  .conteiner_textoslink_texto_superior_titulo{
+    font-size: 1.56em;
+  }
+  .conteiner_textoslink_texto_superior_texto{
+    font-size: 0.75;
+  }
+}

@@ -1,0 +1,246 @@
+/*Paginas laterais*/
+
+.tt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.topo_link_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  padding-bottom: 24px;
+}
+
+.topo_nolu {
+  display: flex;
+  justify-content: space-between;
+  gap: 17px;
+  margin-right: 40px;
+}
+
+.topob {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 184px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 17px 14px 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pesquisar {
+  margin: 23px;
+  width: 250px;
+  padding: 8px 30px 8px 35px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background: url("https://cdn-icons-png.flaticon.com/512/622/622669.png")
+    no-repeat 8px center;
+  background-size: 18px;
+  background-color: white;
+}
+
+input {
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer_guia1 {
+  margin-top: 80px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 184px;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.footer_guia2 {
+  display: none;
+}
+
+.barra {
+  width: auto;
+  height: 1px;
+}
+
+.footer_bxlink {
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.voce {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inscrições {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer_bxlinkbb {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.footer_guia1 {
+  display: block;
+}
+
+@media (max-width: 840px) {
+  .footer_guia1 {
+    display: none;
+  }
+
+  .footer_guia2 {
+    position: fixed;
+    display: block;
+    width: 67px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    z-index: 1000;
+    gap: 30px;
+  }
+  .topob {
+    margin-left: 67px;
+  }
+
+  .bxlinkdd,
+  .bxlink {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .bxlinkll {
+    display: none;
+  }
+
+  .topo_link_logo {
+    margin-left: -3px;
+  }
+}
+
+@media (max-width: 390px) {
+  .titulo {
+    margin-top: 5px;
+  }
+
+  .voce {
+    display: block;
+  }
+
+  .topo_link_logo {
+    margin-top: 23px;
+  }
+
+  .footer_guia1 {
+    display: none;
+  }
+
+  .pesquisar {
+    display: none;
+  }
+
+  .footer_guia2 {
+    position: fixed;
+    display: block;
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    z-index: 1000;
+    bottom: 0;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .topo_nolu {
+    margin-right: 48px;
+  }
+
+  .img_logo {
+    width: 100%;
+    max-width: 390px;
+    height: 23px;
+  }
+
+  .img_nulo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .topo {
+    width: 100%;
+    max-width: 390px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topob {
+    margin-left: 0;
+    padding: 10px 27px;
+    gap: 19px;
+    width: 100%;
+    max-width: 390px;
+    height: 48px;
+  }
+
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    padding: 8px 3px;
+  }
+
+  .topo_link_logo {
+    margin-left: 7px;
+  }
+
+  .footer_guia2 > * {
+    margin: 0 28px;
+  }
+}

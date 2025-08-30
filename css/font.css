@@ -1,0 +1,42 @@
+/*Paginas laterais*/
+
+a {
+  text-decoration: none;
+}
+
+.titulo {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9375em;
+}
+
+.bxtexto {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.5625em;
+}
+
+.footer_guia1_txt {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.texto_btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+@media (max-width: 390px) {
+  .titulo {
+    font-size: 1em;
+  }
+  .bxtexto {
+    font-size: 0.625em;
+  }
+
+  .texto_btn {
+    font-size: 0.625em;
+  }
+}
