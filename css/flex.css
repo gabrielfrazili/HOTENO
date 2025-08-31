@@ -123,7 +123,7 @@ input:focus {
   display: block;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1024px) {
   .footer_guia1 {
     display: none;
   }
@@ -161,7 +161,7 @@ input:focus {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .titulo {
     margin-top: 5px;
   }
@@ -185,8 +185,7 @@ input:focus {
   .footer_guia2 {
     position: fixed;
     display: block;
-    width: 100%;
-    max-width: 390px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     height: 56px;
@@ -212,8 +211,7 @@ input:focus {
   }
 
   .topo {
-    width: 100%;
-    max-width: 390px;
+    width: 100vh;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -224,10 +222,9 @@ input:focus {
     margin-left: 0;
     padding: 10px 27px;
     gap: 19px;
-    width: 100%;
-    max-width: 390px;
+    width: 100vh  ;
     height: 48px;
-  }
+  } 
 
   .btn1,
   .btn2,
