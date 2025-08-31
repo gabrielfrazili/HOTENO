@@ -28,7 +28,7 @@ a {
   font-weight: 400;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 682px) {
   .titulo {
     font-size: 1em;
   }
